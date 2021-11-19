@@ -28,15 +28,10 @@ h1{
 }
 
 
-ul{
-    background:rgba(255, 3, 3, 0.664);
-    padding: 20px;   
-    list-style-type: circle;
-    width: fit-content;
-    margin:25px;
-    border-radius: 5px;
+.project{
+   border-radius:5px;
 }
-
+/*
 ul il{
     background-color:rgba(236, 102, 102, 0.829);
     margin: 10px;
@@ -44,11 +39,9 @@ ul il{
     list-style-type: circle;
     
 }
+*/
 
-ul il:hover{
-    color:white;
-}
-img{
+.profile{
     height: 200px;
     border: 2px solid rgba(187, 5, 5, 0.664);
     padding:3px;
