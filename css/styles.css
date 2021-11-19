@@ -1,0 +1,76 @@
+body{
+    background-color:silver;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{ 
+    color:rgba(168, 2, 2, 0.911);
+    display: block;
+}
+
+h1{
+    text-align: center;
+    text-indent:10px;
+    color:rgba(141, 1, 1, 0.781);
+
+}
+
+#title{
+    color:rgba(168, 2, 2, 0.911);
+
+}
+
+#main-p{
+    width: 420px;
+    padding: 10px;
+    border: 3px rgba(238, 4, 4, 0.493);
+    margin: 1px;
+    color:rgba(168, 2, 2, 0.911)
+}
+
+
+ul{
+    background:rgba(255, 3, 3, 0.664);
+    padding: 20px;   
+    list-style-type: circle;
+    width: fit-content;
+    margin:25px;
+    border-radius: 5px;
+}
+
+ul il{
+    background-color:rgba(236, 102, 102, 0.829);
+    margin: 10px;
+    width:fit-content;
+    list-style-type: circle;
+    
+}
+
+ul il:hover{
+    color:white;
+}
+img{
+    height: 200px;
+    border: 2px solid rgba(187, 5, 5, 0.664);
+    padding:3px;
+    background-color: rgba(187, 5, 5, 0.664);
+    border-radius: 10px;
+}
+
+/* hover over text changing background and text color */
+
+h3:hover{
+    background-color:rgba(255, 3, 3, 0.664);
+    color:white;
+
+}
+
+/* Adding borders to h3 tags */
+.index-h3{
+        border:rgba(187, 5, 5, 0.664);
+        border-style: solid;
+        width:fit-content;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
